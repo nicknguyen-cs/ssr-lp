@@ -35,10 +35,10 @@ export default function Home(props) {
 }
 
 export const getServerSideProps = async (context) => {
-  console.log("This only happens once", context.query);
-//  if(context.query){
+  console.log("This only happens once", context);
+  if(context.query){
     Stack.livePreviewQuery(context.query)
- // }
+  }
   let entry = await fetchData(process.env.content_type_uid, process.env.entry_uid);
   return { props: 
     {
