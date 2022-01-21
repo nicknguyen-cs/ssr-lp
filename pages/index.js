@@ -35,7 +35,8 @@ export default function Home(props) {
 }
 
 export const getServerSideProps = async (context) => {
-  console.log("This only happens once", context);
+  console.log("Testing");
+  console.log( context);
   if(context.query){
     Stack.livePreviewQuery(context.query)
   }
