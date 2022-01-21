@@ -29,7 +29,7 @@ export default function Home(props) {
   return (
     <div>
       Brand New Stuff
-      <h1>{entry?.title}</h1>
+      <h1>{entry?.title} $$$$$</h1>
       <p>{entry?.single_line}</p>
     </div>
   )
