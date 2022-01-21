@@ -28,6 +28,7 @@ export default function Home(props) {
   const {entry} = props
   return (
     <div>
+      Brand New Stuff
       <h1>{entry?.title}</h1>
       <p>{entry?.single_line}</p>
     </div>
