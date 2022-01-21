@@ -39,7 +39,7 @@ export const getServerSideProps = async (context) => {
     Stack.livePreviewQuery(context.query)
   }
   let entry = await fetchData(process.env.content_type_uid, process.env.entry_uid);
-  console.log(entry);
+  console.log("This only happens once", entry);
   return { props: 
     {
       entry
