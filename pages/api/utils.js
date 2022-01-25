@@ -15,6 +15,8 @@ export const Stack = Contentstack.Stack(
 )
 
 Stack.setHost("api.contentstack.io")
+/*
 ContentstackLivePreview.init({enable: true,ssr: true, debug: true, stackDetails: {
   apiKey: process.env.api_key
 }});
+*/
